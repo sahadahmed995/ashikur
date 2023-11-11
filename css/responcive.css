@@ -1,0 +1,2077 @@
+/* *all media starts */
+@media  (min-width: 320px) and (max-width:991px){
+    /* *nav starts */
+    nav{
+        box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+    }
+    nav .nav_btn{
+        outline: none;
+        border: none;
+    }
+
+    /* *nav ends */
+
+    /* *about_me starts */
+    .about_me::after{
+        display: none;
+    }
+    /* *about_me ends */
+
+    /* *timeline starts */
+    .my_work_experience .progress_bar{
+        border-left: 2px #7A7A7A dashed;
+        position: relative;
+        margin-left: 20px;
+    }     
+    .my_work_experience .progress_bar .left{
+        border-right: none;
+        padding-bottom: 0;
+    }
+    .my_work_experience .progress_bar .right{
+        padding: 20px 0 50px 50px;
+    }
+    .my_work_experience .progress_bar .left::before{
+        left: -68px;
+        top: -10px;
+    }
+    .my_work_experience .progress_bar .left::after{
+        left: -57px;
+        top: 0;
+    }
+    .my_work_experience .progress_bar h4{
+        font-size: 20px;
+    }
+    .my_work_experience .progress_bar  p{
+        font-size: 16px;
+    }
+    .my_work_experience .bar3 .right{
+        padding: 20px 0 00px 50px;
+        padding-bottom: 0;
+    }
+    /* *timeline ends */
+
+}
+/* *all media ends */
+
+
+
+/* *lg strats */
+@media  (min-width: 992px) and (max-width:1199px){
+    /* *banner starts  */
+    .hedding h2{
+        font-size: 40px;
+        font-weight: 700;
+    }
+    .banner{
+        height: 650px;
+    }
+    .banner .right img{
+        margin-left: 100px;
+    }
+    .banner .right .lg{
+        margin-left: 0;
+    }
+    .banner .left h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .banner .left span{
+        font-size: 18px;
+    }
+    .banner .left p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .m_btn a{
+        font-size: 14px;
+        padding: 12px 34px;
+        border-radius: 10px;
+    }
+    .banner .left .m_btn a:last-child{
+        padding: 12px 18px;
+        margin-left: 19px;
+    }
+    /* *banner ends */
+
+    /* *about_me starts */
+    .about_me .right h3{
+        font-size: 40px;
+    }
+    .about_me .left img:first-child{
+        width: 100%;
+        margin-left: 0; 
+    }
+    /* *about_me ends */
+
+    /* *branding starts */
+    .brandind .left img{
+        width: 100%;
+    }
+    /* *branding ends */
+
+    /* *feedback start */
+    .feedback .img img{
+        margin: auto;
+        width: 100%;
+    }
+    /* *feedback ends */
+
+    /* *blog_post sarts */
+    .blogs .subcrption .right form input[type=email]{
+        width: 74%;
+        padding:12px 0px;
+        border-radius: 10px 0 0 10px;
+    }
+    .blogs .subcrption .right form button[type=submit]{
+        padding: 0;
+        padding:15px 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 14px;
+        width: 25%;
+    }
+    /* *blog_post ends */
+
+    /* *footer starts */
+    .footer .footer_ctn_2 h4{
+        font-size: 26px;
+        margin-top: 30px;
+    }
+
+    /* *footer ends */
+    
+    /* *about_info starts*/
+    .about_info .right .row{
+        margin: 50px 0;
+    }
+    /* *about_info ends*/
+
+    /* *blogs starts */
+    .card_show .row .img{
+        text-align: center;
+    }
+    .card_show .row .content h4{
+        font-size: 22px;
+        margin-top: 30px;
+        line-height: 33px;
+    }
+    .card_show .row .content p{
+        font-size: 16px;
+        line-height: 32px; 
+        margin: 15px 0 15px 0;
+        text-align: justify;
+    }
+    /* *blogs ends */
+}
+/* *lg ends */
+
+
+
+/* *md media starts */
+@media  (min-width: 768px) and (max-width:991px){
+    /* *common css starts */
+    .head_main{
+        background: transparent;
+    }
+    .head{
+        padding: 30px 0;
+        margin: 50px 0;
+        border-radius: 20px;
+        background: none;
+        background-image: url(../img/head.png);
+    }
+    .head h3{
+        font-size: 36px;
+        margin-bottom: 10px;
+    }
+    .head p{
+        font-size: 16px;
+    }
+    /* *common css ends */
+    
+    /* *banner starts */
+    .banner{
+        height: 1050px;
+    }
+    .banner .left h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .banner .left span{
+        font-size: 18px;
+    }
+    .banner .left p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .m_btn a{
+        font-size: 14px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    .banner .left .m_btn a img{
+        margin-left: 4px;
+        width: 16px;
+    }
+    .banner .left .m_btn a:last-child{
+        padding: 10px 14px;
+        margin-left: 19px;
+    }
+    .banner .right .sm{
+        margin:40px auto;
+        width: 80%;
+    }
+    /* *banner ends */
+
+    /* *about_me starts */
+    .about_me .left img:last-child{
+        width: 70%;
+        margin: 0;
+        margin-left: auto;
+    }
+    .about_me .right h3{
+        font-size: 36px;
+        margin-top: 33px;
+    }
+    .about_me .right p{
+        font-size: 18px;
+        line-height: 24px;
+    }
+    .about_me .right .m_btn a{
+        font-size: 16px;
+        padding: 11px 28px;
+    }   
+    /* *about_me ends */
+
+    /* *branding starts */
+    .brandind{
+        border-radius: 20px;
+    }
+    .brandind .left img{
+        width: 100%;
+    }
+    .brandind .right {
+        padding: 40px;
+    }
+    .brandind .right .hedding h2{
+        text-align: left;
+    }
+    .brandind .right  p{
+        margin: 20px 0;
+        color: var(--primary_color);
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .brandind .right .m_btn a{
+        background-color: transparent;
+        font-size: 16px;
+        color: #353535;
+        padding: 0;
+    }
+    /* *branding ends */
+
+    /* *random_cards strts */
+    .random_cards{
+        padding: 100px 0;
+    }
+    .random_cards .card_body .img,
+    .random_cards .card_body .content{
+        padding: 15px;
+    }
+    .random_cards .card_body{
+        padding: 30px;
+        border-radius: 18px;
+    }
+    .random_cards .card_body img{
+        width: 90%;
+    }
+    .random_cards .card_body h4{
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .random_cards .card_body p{
+        color: #7A7A7A;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: justify;
+    }
+    /* *random_cards ends */
+
+    /* *what_do_i starts */
+    .what_do_i{
+        padding: 90px 0;
+    }
+    .what_do_i .left{
+        margin-top: 60px;
+    }
+    .what_do_i .left .cards {
+        border-radius: 12px;
+        padding: 17px 26px;
+    }
+    .what_do_i .left .cards .image img{
+        width: 80px;
+        margin: auto;
+        display: block;
+    }
+    .what_do_i .left .cards .content h4{
+        font-size: 20px;
+    }
+    .what_do_i .left .cards .content p{
+        font-size: 16px;
+    }
+    .what_do_i .right {
+        text-align: left;
+    }
+    .what_do_i .right h2{
+        text-align: left;
+    }
+    .what_do_i .right p{
+        color: #7A7A7A;
+        font-size: 18px;
+        line-height: 27px;
+    }
+    .what_do_i .right h4{
+        font-size: 34px;
+    }
+    .what_do_i .right span{
+        font-size: 16px;
+        font-weight: 500;
+    }
+    /* *what_do_i ends */
+
+    /* *timeline starts */
+    .hedding h2{
+        font-size: 40px;
+    }
+    /* *timeline ends */
+
+    /* *skills starts */
+    .skills{
+        padding: 150px 0 50px 0;
+    }
+    .skills .left p{
+        font-size: 18px;
+        line-height: 38px;
+        margin: 50px 00px 50px 0;
+    }
+    /* *skills ends */
+
+    /* *my service starts */
+    .services{
+        padding: 70px 0;
+        text-align: left;
+    }
+    .services .hedding h2{
+        text-align: left;
+    }
+    .services p{
+        font-size: 18px;
+        line-height: 23px;
+        margin: 13px 0 45px 0;
+    }
+    .services .service_cars .card_body{
+        padding: 28px 24px;
+        margin-bottom: 25px;
+    }
+    .services .service_cars .card_body:hover{
+        padding: 28px 24px;
+        margin: 0;
+        margin-bottom: 25px;
+    }
+    .services .service_cars .card_body .image{
+        text-align: center;
+    }
+    .services .service_cars .card_body .image img{
+        width: 80%;
+    }
+    .services .service_cars .card_body h4{
+        font-size: 20px;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 12px;
+    }
+    .services .service_cars .card_body p{
+        font-size: 16px;
+        line-height: 23px;
+        margin: 0;
+    }
+    /* *my service ends */
+
+    /* *feedback starts */
+    .feedback{
+        padding: 50px 0 30px 0;
+    }
+    .feedback .hedding h2{
+        text-align: left;
+    }
+    .feedback p{
+        color: #7A7A7A;
+        font-size: 18px;
+        line-height: 38px;
+        margin: 15px 0 60px 0;
+    }
+    .feedback .img img{
+        margin: auto;
+        width: 60%;
+    }
+    .feedback .content p{
+        margin: 20px 0 35px 0;
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .feedback .content h4{
+        font-size: 22px;
+        margin: 0 0 0 40px;
+        position: relative;
+    }
+    .feedback .content h4::before{
+        content: "";
+        width: 30px;
+        background-color: #353535;
+        height: 1px;
+        bottom: 0px;
+        left: -40px;
+        position: absolute;
+    }
+    .feedback .content span{
+        font-size: 16px;
+        margin-left: 40px;
+    }
+    /* *feedback ends */
+
+    /* *blog_post sarts */
+    .blogs{
+        padding: 70px 0;
+    }
+    .blogs .hedding{
+        margin-bottom: 60px;
+    }
+    .blogs .blog_coard{
+        margin-bottom: 30px;
+    }
+    .blogs .blog_coard .img img{
+        width: 100%;
+    }
+    .blogs .blog_coard .content h4{
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .blogs .blog_coard .content a{
+        font-size: 16px;
+        display: block;
+        bottom: 30px;
+    }
+    .blogs .blog_coard .content svg{
+        width: 17px;
+        height: 17px;
+    }
+    .blogs .subcrption{
+        border-radius: 19px;
+        padding: 60px;
+        margin-top: 100px;
+    } 
+    .blogs .subcrption .left span{
+        font-size: 16px;
+    }
+    .blogs .subcrption .left h4{
+        font-size: 28px;
+        font-weight: 600;
+    }
+    .blogs .subcrption .left p{
+        font-size: 18px;
+        margin-bottom: 90px;
+    }
+    .blogs .subcrption .right form input[type=email]{
+        width: 79%;
+        padding:18px 0px;
+        border-radius: 10px 0 0 10px;
+    }
+    .blogs .subcrption .right form button[type=submit]{
+        padding: 0;
+        padding:20px 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 14px;
+        width: 20%;
+    }
+    .blogs .subcrption .right form input::placeholder{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    /* *blog_post ends */
+
+    /* *footer starts */
+    .footer{
+        padding: 60px 0;
+    }
+    .footer .footer_ctn_1 img{
+        width: 180px;
+    }
+    .footer .footer_ctn_2 h4{
+        font-size: 24px;
+        margin-top: 50px;
+    }
+    .footer .footer_ctn_2 p{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 60px;
+    }
+    .footer .footer_ctn_3{
+        text-align: left;
+        margin-bottom: 70px;
+    }
+    .footer .footer_ctn_3 a svg{
+        width: 14px;
+    }
+    .footer .footer_ctn_4 p,
+    .footer .footer_ctn_5 p{
+        font-size: 14px;
+    }
+    .footer .footer_ctn_4 a,
+    .footer .footer_ctn_5 a{
+        font-size: 16px;
+    }
+    .footer .footer_ctn_6{
+        text-align: left;
+        margin-top: 35px;
+    }
+    .footer .footer_ctn_6 a{
+        padding: 0px;
+        width: 48px;
+        height: 48px;
+        line-height: 48px;
+        border-radius: 24px;
+    }
+    .footer .footer_ctn_6 a svg{
+        width: 16px;
+    }
+
+    /* *footer ends */
+
+    /* *about_info starts*/
+    .about_info .row{
+        margin-bottom: 0px;
+    }
+    .about_info .left img{
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .about_info p{
+        color: #7A7A7A;
+        text-align: justify;
+        font-size: 18px;
+        line-height: 23px;
+        margin: 40px 0;
+    }
+    .about_info .right p{
+        font-size: 16px;
+    }
+    .about_info .right .row{
+        margin: 0 10px;
+    }
+    .about_info .right .row p{
+        margin: 0px;
+        padding: 0;
+        padding-left: 0px;
+    }
+    .about_info .right p span{
+        font-size: 16px;
+        margin-left: 0px;
+    }
+    .about_info .right .m_btn a{
+        padding: 12px 20px;
+        margin: 30px 0 40px 0;
+        font-size: 16px;
+    }
+    /* *about_info ends*/
+
+    /* *about_timeline starts*/
+    .about_hedding{
+        font-size: 34px;
+        margin: 60px 0 60px 0;
+    }
+    .about_me_timeline  h4{
+        font-size: 22px;
+        font-weight: 600;
+        margin: 0px 0 16px 0;
+    }
+    .about_me_timeline  p{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about_me_timeline .time_line{
+        padding: 0 30px 20px 0;
+        border-right: 2px dashed #7A7A7A;
+        border-left: none;
+        position: relative;
+    }
+    .about_me_timeline .time_line  .left{
+        margin-right: 0px;
+    }
+    .about_me_timeline .time_line .row .right{
+        padding-left: 0;
+    }
+    .about_me_timeline .time_line.border_less{
+        border: none;
+    }
+    .about_me_timeline .time_line.border_less::after{
+        display: none;
+    }
+    .about_me_timeline .time_line.border_less::before{
+        display: none;
+    }
+    .about_me_timeline .time_line.border_less{
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    .about_me_timeline .time_line::after{
+        left: unset;
+        right: -17px;
+        top: 0;
+    }
+    .about_me_timeline .time_line::before{
+        left: unset;
+        right: -8px;
+        top: 8px;
+    }
+    /* *about_timeline ends*/
+
+    /* *about_me_skills starts*/
+    .about_me_skills{
+        padding: 60px 0;
+    }
+    .about_me_skills p,
+    .about_me_skills span{
+        font-size: 18px;
+    }
+    .about_me_skills .left{
+        padding: 0;
+    }
+    .about_me_skills .right{
+        padding: 0;
+    }
+    /* *about_me_skills ends*/
+
+    /* *projetcs starts */
+    .project_cards{
+        padding-bottom: 60px;
+    }
+    .project_cards .projetct_cards_body{
+        margin: 40px 0;
+    }
+    .project_cards .projetct_cards_body li button{
+        font-size: 16px;
+        height: 60px;
+        width: 70%;
+        border-radius: 15px;
+    }
+    .project_cards .p_card{
+        margin-bottom: 60px;
+    }
+    .project_cards .p_card .card_body p{
+        font-size: 16px;
+        margin: 18px 0 5px 0;
+    }
+    .project_cards .p_card .card_body h4{
+        font-size: 20px;
+    }
+    /* *projetcs ends */
+
+    /* *blogs starts */
+    .card_show {
+        margin-bottom: 80px;
+        margin-top: 80px;
+    }
+    .card_show .row .img{
+        text-align: center;
+    }
+    .card_show .row .img img{
+        width: 90%;
+        border-radius: 15px;
+    }
+    .card_show .row .content h4{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .card_show .row .content p{
+        font-size: 18px;
+        line-height: 38px; 
+        margin: 25px 0 30px 0;
+        text-align: justify;
+    }
+    .blogs_cards .card_body .image{
+        text-align: center;
+    }
+    .blogs_cards .card_body .image img{
+        width: 90%; 
+    }
+    .blogs_cards .card_body h4{
+        font-size: 20px;
+        line-height: 34px; /* 38px */
+        margin: 0;
+    }
+    .blogs_cards .card_body {
+        position: relative;
+    }
+    .blogs_cards .card_body a{
+        color: #353535;
+        font-size: 18px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 10px;
+    }
+    /* *blogs ends */
+
+    /* *contect_form starts */
+    .contect_form{
+        padding: 50px 0;
+    }
+    .contect_form .left{
+        margin-bottom: 50px;
+    }
+    .contect_form .left .row{
+        margin-bottom: 40px;
+    }
+    .contect_form .left .icon span{
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+    }
+    .contect_form .left .icon span svg{
+        width: 28px;
+        height: 28px;
+    }
+    .contect_form .left .content p{
+        font-size: 20px;
+    } 
+    .contect_form .left .content address,
+    .contect_form .left .content a
+    {
+        font-size: 16px;
+    } 
+    .contect_form .right form input,
+    .contect_form .right form textarea{
+        padding: 16px 24px;
+        border-radius: 12px;
+        margin-bottom: 18px;
+    }
+    .contect_form .right form textarea{
+        height: 180px;
+    }
+    .contect_form .right form input::placeholder,
+    .contect_form .right form textarea::placeholder{
+        font-size: 14px;
+    }
+    /* *contect_form ends*/
+}
+/* *md media ends */
+
+
+/* *small starls */
+@media  (min-width: 576px) and (max-width:767px){
+    /* *common css starts */
+    .head_main{
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .head{
+        padding: 30px 0;
+        margin: 0px 0;
+        border-radius: 0px;
+        background: none;
+    }
+    .head h3{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+    .head p{
+        font-size: 14px;
+    }
+    /* *common css ends */
+
+    /* *banner starts */
+    .banner{
+        height: 920px;
+    }
+    .banner .left h1{
+        font-size: 40px;
+        margin-bottom: 15px;
+    }
+    .banner .left span{
+        font-size: 18px;
+    }
+    .banner .left p{
+        font-size: 18px;
+        margin-bottom: 15px;
+    }
+    .m_btn a{
+        font-size: 14px;
+        padding: 10px 30px;
+        border-radius: 10px;
+    }
+    .banner .left .m_btn a img{
+        margin-left: 4px;
+        width: 16px;
+    }
+    .banner .left .m_btn a:last-child{
+        padding: 10px 14px;
+        margin-left: 19px;
+    }
+    .banner .right .sm{
+        margin:40px auto;
+        width: 80%;
+    }
+    /* *banner ends */
+
+    /* *about_me starts */
+    .about_me .left img:last-child{
+        width: 80%;
+        margin: 0;
+        margin-left: auto;
+    }
+    .about_me .right h3{
+        font-size: 30px;
+        margin-top: 33px;
+    }
+    .about_me .right p{
+        font-size: 16px;
+        line-height: 24px;
+    }
+    .about_me .right .m_btn a{
+        font-size: 16px;
+        padding: 11px 28px;
+    }   
+    /* *about_me ends */
+
+    /* *random_cards strts */
+    .random_cards{
+        padding: 100px 0;
+    }
+    .random_cards .card_body .img,
+    .random_cards .card_body .content{
+        padding: 10px;
+    }
+    .random_cards .card_body{
+        padding: 30px;
+        border-radius: 16px;
+    }
+    .random_cards .card_body img{
+        width: 80%;
+    }
+    .random_cards .card_body h4{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .random_cards .card_body p{
+        color: #7A7A7A;
+        font-size: 14px;
+        line-height: 25px;
+        text-align: justify;
+    }
+    /* *random_cards ends */
+
+    /* *branding starts */
+    .brandind{
+        border-radius: 20px;
+    }
+    .brandind .left img{
+        width: 100%;
+    }
+    .brandind .right {
+        padding: 40px;
+    }
+    .brandind .right .hedding h2{
+        text-align: left;
+    }
+    .brandind .right  p{
+        margin: 20px 0;
+        color: var(--primary_color);
+        font-size: 16px;
+        line-height: 25px;
+    }
+    .brandind .right .m_btn a{
+        background-color: transparent;
+        font-size: 16px;
+        color: #353535;
+        padding: 0;
+    }
+    /* *branding ends */
+
+    /* *what_do_i starts */
+    .what_do_i{
+        padding: 70px 0;
+    }
+    .what_do_i .left{
+        margin-top: 40px;
+    }
+    .what_do_i .left .cards {
+        border-radius: 14px;
+        padding: 20px 26px;
+    }
+    .what_do_i .left .cards .image img{
+        width: 70px;
+        margin: auto;
+        display: block;
+    }
+    .what_do_i .left .cards .content h4{
+        font-size: 18px;
+    }
+    .what_do_i .left .cards .content p{
+        font-size: 14px;
+    }
+    .what_do_i .right {
+        text-align: left;
+    }
+    .what_do_i .right h2{
+        text-align: left;
+    }
+    .what_do_i .right p{
+        color: #7A7A7A;
+        font-size: 16px;
+        line-height: 27px;
+    }
+    .what_do_i .right h4{
+        font-size: 28px;
+    }
+    .what_do_i .right span{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    /* *what_do_i ends */
+
+    /* *timeline starts */
+    .my_work_experience .hedding{
+        margin-bottom: 60px;
+    }
+    .hedding h2{
+        font-size: 32px;
+    }
+    .my_work_experience .progress_bar .left::before{
+        left: -54px;
+        top: -10px;
+    }
+    .my_work_experience .progress_bar .left::after{
+        left: -43px;
+        top: 0;
+    }
+    .my_work_experience .progress_bar h4{
+        font-size: 18px;
+    }
+    .my_work_experience .progress_bar  p{
+        font-size: 14px;
+    }
+    .my_work_experience .progress_bar .right{
+        padding: 20px 0 50px 30px;
+    }
+    .my_work_experience .bar3 .right{
+        padding-bottom: 0;
+    }
+    /* *timeline ends */
+
+    /* *skills starts */
+    .skills{
+        padding: 150px 0 50px 0;
+    }
+    .skills .left p{
+        font-size: 16px;
+        line-height: 38px;
+        margin: 50px 00px 50px 0;
+    }
+    /* *skills ends */
+
+    /* *my service starts */
+    .services{
+        padding: 70px 0;
+        text-align: left;
+    }
+    .services .hedding h2{
+        text-align: left;
+    }
+    .services .hedding h2{
+        text-align: left;
+    }
+    .services p{
+        font-size: 15px;
+        line-height: 23px;
+        margin: 13px 0 45px 0;
+    }
+    .services .service_cars .card_body{
+        padding: 24px 22px;
+        margin-bottom: 20px;
+    }
+    .services .service_cars .card_body:hover{
+        padding: 24px 22px;
+        margin: 0;
+        margin-bottom: 20px;
+    }
+    .services .service_cars .card_body .image{
+        text-align: center;
+    }
+    .services .service_cars .card_body .image img{
+        width: 80%;
+    }
+    .services .service_cars .card_body h4{
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 9px;
+    }
+    .services .service_cars .card_body p{
+        font-size: 14px;
+        line-height: 23px;
+        margin: 0;
+    }
+    /* *my service ends */
+
+    /* *feedback starts */
+    .feedback{
+        padding: 50px 0 30px 0;
+    }
+    .feedback .hedding h2{
+        text-align: left;
+    }
+    .feedback p{
+        color: #7A7A7A;
+        font-size: 16px;
+        line-height: 34px;
+        margin: 15px 0 60px 0;
+    }
+    .feedback .img img{
+        margin: auto;
+        width: 80%;
+    }
+    .feedback .content p{
+        margin: 20px 0 25px 0;
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .feedback .content h4{
+        font-size: 20px;
+        margin: 0 0 0 40px;
+        position: relative;
+    }
+    .feedback .content h4::before{
+        content: "";
+        width: 30px;
+        background-color: #353535;
+        height: 1px;
+        bottom: 0px;
+        left: -40px;
+        position: absolute;
+    }
+    .feedback .content span{
+        font-size: 14px;
+        margin-left: 40px;
+    }
+    /* *feedback ends */
+
+    /* *blog_post sarts */
+    .blogs{
+        padding: 70px 0;
+    }
+    .blogs .hedding{
+        margin-bottom: 60px;
+    }
+    .blogs .blog_coard{
+        margin-bottom: 30px;
+    }
+    .blogs .blog_coard .img img{
+        width: 100%;
+    }
+    .blogs .blog_coard .content p span{
+        font-size: 12px;
+        margin-right: 20px;
+    }
+    .blogs .blog_coard .content p{
+        font-size: 12px;
+    }
+    .blogs .blog_coard .content h4{
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .blogs .blog_coard .content a{
+        font-size: 14px;
+        display: block;
+        bottom: 20px;
+    }
+    .blogs .blog_coard .content svg{
+        width: 15px;
+        height: 15px;
+    }
+    .blogs .subcrption{
+        border-radius: 19px;
+        padding: 40px;
+        margin-top: 100px;
+    } 
+    .blogs .subcrption .left span{
+        font-size: 14px;
+    }
+    .blogs .subcrption .left h4{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    .blogs .subcrption .left p{
+        font-size: 16px;
+        margin-bottom: 60px;
+    }
+    .blogs .subcrption .right form input[type=email]{
+        width: 74%;
+        padding:12px 0px;
+        border-radius: 10px 0 0 10px;
+    }
+    .blogs .subcrption .right form button[type=submit]{
+        padding: 0;
+        padding:14px 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 14px;
+        width: 25%;
+    }
+    .blogs .subcrption .right form input::placeholder{
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    /* *blog_post ends */
+
+    /* *footer starts */
+    .footer{
+        padding: 50px 0;
+    }
+    .footer .footer_ctn_1 img{
+        width: 180px;
+    }
+    .footer .footer_ctn_2 h4{
+        font-size: 24px;
+        margin-top: 30px;
+    }
+    .footer .footer_ctn_2 p{
+        font-size: 16px;
+        line-height: 30px;
+        margin-bottom: 50px;
+    }
+    .footer .footer_ctn_3{
+        text-align: left;
+        margin-bottom: 50px;
+    }
+    .footer .footer_ctn_3 a svg{
+        width: 14px;
+    }
+    .footer .footer_ctn_4 p,
+    .footer .footer_ctn_5 p{
+        font-size: 14px;
+    }
+    .footer .footer_ctn_4 a,
+    .footer .footer_ctn_5 a{
+        font-size: 16px;
+    }
+    .footer .footer_ctn_6{
+        text-align: left;
+        margin-top: 35px;
+    }
+    .footer .footer_ctn_6 span{
+        font-size: 16px;
+    }
+    .footer .footer_ctn_6 a{
+        padding: 0px;
+        width: 35px;
+        height: 35px;
+        line-height: 35px;
+        border-radius: 50%;
+    }
+    .footer .footer_ctn_6 a svg{
+        width: 14px;
+    }
+
+    /* *footer ends */
+
+    /* *about_info starts*/
+    .about_info .row{
+        margin-bottom: 0px;
+    }
+    .about_info .left img{
+        width: 60%;
+        display: block;
+        margin: auto;
+        margin-bottom: 50px;
+    }
+    .about_info p{
+        color: #7A7A7A;
+        text-align: justify;
+        font-size: 16px;
+        line-height: 23px;
+        margin: 40px 0;
+    }
+    .about_info .right p{
+        font-size: 15px;
+    }
+    .about_info .right .row{
+        margin: 0 10px;
+    }
+    .about_info .right .row p{
+        margin: 0px;
+        padding: 0;
+        padding-left: 0px;
+    }
+    .about_info .right p span{
+        font-size: 15px;
+        margin-left: 0px;
+    }
+    .about_info .right .m_btn a{
+        padding: 12px 20px;
+        margin: 30px 0 40px 0;
+        font-size: 15px;
+    }
+    /* *about_info ends*/
+
+    /* *about_timeline starts*/
+    .about_hedding{
+        font-size: 30px;
+        margin: 50px 0 50px 0;
+    }
+    .about_me_timeline  h4{
+        font-size: 18px;
+        font-weight: 600;
+        margin: 0px 0 16px 0;
+    }
+    .about_me_timeline  p{
+        font-size: 14px;
+        line-height: 24px;
+    }
+    .about_me_timeline .time_line{
+        padding: 0 30px 20px 0;
+        border-right: 2px dashed #7A7A7A;
+        border-left: none;
+        position: relative;
+    }
+    .about_me_timeline .time_line  .left{
+        margin-right: 0px;
+    }
+    .about_me_timeline .time_line .row .right{
+        padding-left: 0;
+    }
+    .about_me_timeline .time_line.border_less{
+        border: none;
+    }
+    .about_me_timeline .time_line.border_less::after{
+        display: none;
+    }
+    .about_me_timeline .time_line.border_less::before{
+        display: none;
+    }
+    .about_me_timeline .time_line.border_less{
+        padding-left: 30px;
+        padding-right: 0;
+    }
+    .about_me_timeline .time_line::after{
+        left: unset;
+        right: -17px;
+        top: 0;
+    }
+    .about_me_timeline .time_line::before{
+        left: unset;
+        right: -8px;
+        top: 8px;
+    }
+    /* *about_timeline ends*/
+
+    /* *about_me_skills starts*/
+    .about_me_skills{
+        padding: 40px 0;
+    }
+    .about_me_skills p,
+    .about_me_skills span{
+        font-size: 16px;
+    }
+    .about_me_skills .left{
+        padding: 0;
+    }
+    .about_me_skills .right{
+        padding: 0;
+    }
+    /* *about_me_skills ends*/
+
+    /* *projetcs starts */
+    .project_cards{
+        padding-bottom: 60px;
+    }
+    .project_cards .projetct_cards_body{
+        margin: 40px 0;
+    }
+    .project_cards .projetct_cards_body li button{
+        font-size: 16px;
+        height: 60px;
+        width: 80%;
+        border-radius: 15px;
+    }
+    .project_cards .p_card{
+        margin-bottom: 60px;
+    }
+    .project_cards .p_card .card_body p{
+        font-size: 14px;
+        margin: 18px 0 5px 0;
+    }
+    .project_cards .p_card .card_body h4{
+        font-size: 18px;
+    }
+    /* *projetcs ends */
+    /* *blogs starts */
+    .card_show {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .card_show .row .img{
+        text-align: center;
+    }
+    .card_show .row .img img{
+        width: 90%;
+        border-radius: 15px;
+    }
+    .card_show .row .content h4{
+        font-size: 20px;
+        line-height: 34px; 
+        margin-top: 25px;
+    }
+    .card_show .row .content p{
+        font-size: 16px;
+        line-height: 32px; 
+        margin: 20px 0 25px 0;
+        text-align: justify;
+    }
+    .blogs_cards .card_body .image{
+        text-align: center;
+    }
+    .blogs_cards .card_body .image img{
+        width: 90%; 
+    }
+    .blogs_cards .card_body h4{
+        font-size: 18px;
+        line-height: 30px; /* 38px */
+        margin: 0;
+    }
+    .blogs_cards .card_body {
+        position: relative;
+    }
+    .blogs_cards .card_body a{
+        color: #353535;
+        font-size: 16px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 10px;
+    }
+    /* *blogs ends */
+
+    /* *contect_form starts */
+    .contect_form{
+        padding: 50px 0;
+
+    }
+    .contect_form .left{
+        margin-bottom: 50px;
+    }
+    .contect_form .left .row{
+        margin-bottom: 30px;
+    }
+    .contect_form .left .icon span{
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+    }
+    .contect_form .left .icon span svg{
+        width: 20px;
+        height: 20px;
+    }
+    .contect_form .left .content p{
+        font-size: 18px;
+    } 
+    .contect_form .left .content address,
+    .contect_form .left .content a
+    {
+        font-size: 14px;
+    } 
+    .contect_form .right form input,
+    .contect_form .right form textarea{
+        padding: 12px 20px;
+        border-radius: 8px;
+        margin-bottom: 14px;
+    }
+    .contect_form .right form textarea{
+        height: 140px;
+    }
+    .contect_form .right form input::placeholder,
+    .contect_form .right form textarea::placeholder{
+        font-size: 12px;
+    }
+    /* *contect_form ends*/
+}
+/* *samill ends */
+
+
+/* *xs starls */
+@media  (min-width: 320px) and (max-width:575px){
+    /* *common css starts */
+    .head_main{
+        background-image: url(../img/head.png);
+        background-position: center;
+        background-size: cover;
+    }
+    .head{
+        padding: 24px 0;
+        margin: 0px 0;
+        border-radius: 0px;
+        background: none;
+    }
+    .head h3{
+        font-size: 28px;
+    }
+    .head p{
+        font-size: 12px;
+    }
+
+    /* *common css ends */
+
+    /* *banner starts */
+    .banner{
+        height: 800px;
+    }
+    .banner .left h1{
+        font-size: 34px;
+        margin-bottom: 15px;
+    }
+    .banner .left span{
+        font-size: 15px;
+    }
+    .banner .left p{
+        font-size: 15px;
+        margin-bottom: 15px;
+    }
+    .m_btn a{
+        font-size: 10px;
+        padding: 8px 20px;
+        border-radius: 10px;
+    }
+    .banner .left .m_btn a img{
+        margin-left: 4px;
+        width: 12px;
+    }
+    .banner .left .m_btn a:last-child{
+        padding: 8px 7px;
+        margin-left: 19px;
+    }
+    .banner .right .sm{
+        margin:40px auto;
+    }
+    .banner .follow span{
+        font-size: 15px;
+    }
+    .banner .follow a img{
+        padding: 8px;
+        margin-right: 10px;
+    }
+    /* *banner ends */
+
+    /* *about_me starts */
+    .about_me .left img:last-child{
+        width: 100%;
+        margin: 0;
+    }
+    .about_me .right h3{
+        font-size: 24px;
+        margin-top: 33px;
+    }
+    .about_me .right p{
+        font-size: 15px;
+        line-height: 24px;
+    }
+    .about_me .right .m_btn a{
+        font-size: 14px;
+        padding: 11px 28px;
+    }
+    /* *about_me ends */
+
+    /* *random_cards strts */
+    .random_cards{
+        padding: 80px 0;
+    }
+    .random_cards .card_body .img,
+    .random_cards .card_body .content{
+        padding: 5;
+    }
+    .random_cards .card_body{
+        padding: 30px;
+        border-radius: 12px;
+    }
+    .random_cards .card_body img{
+        width: 100%;
+    }
+    .random_cards .card_body h4{
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+    .random_cards .card_body p{
+        color: #7A7A7A;
+        font-size: 12px;
+        line-height: 20px;
+        text-align: justify;
+    }
+    /* *random_cards ends */
+
+    /* *branding starts */
+    .brandind{
+        border-radius: 20px;
+    }
+    .brandind .left img{
+        width: 100%;
+    }
+    .brandind .right {
+        padding: 40px;
+    }
+    .brandind .right .hedding h2{
+        text-align: left;
+    }
+    .brandind .right  p{
+        margin: 20px 0;
+        color: var(--primary_color);
+        font-size: 14px;
+        line-height: 25px;
+    }
+    .brandind .right .m_btn a{
+        background-color: transparent;
+        font-size: 14px;
+        color: #353535;
+        padding: 0;
+    }
+    /* *branding ends */
+
+    /* *what_do_i starts */
+    .what_do_i{
+        padding: 70px 0;
+    }
+    .what_do_i .left{
+        margin-top: 40px;
+    }
+    .what_do_i .left .cards {
+        border-radius: 12px;
+        padding: 17px 26px;
+    }
+    .services .service_cars .card_body .image{
+        text-align: center;
+    }
+    .what_do_i .left .cards .image img{
+        width: 50px;
+        margin: auto;
+        display: block;
+    }
+    .what_do_i .left .cards .content h4{
+        font-size: 15px;
+    }
+    .what_do_i .left .cards .content p{
+        font-size: 12px;
+    }
+    .what_do_i .right {
+        text-align: left;
+    }
+    .what_do_i .right h2{
+        text-align: left;
+    }
+    .what_do_i .right p{
+        color: #7A7A7A;
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .what_do_i .right h4{
+        font-size: 24px;
+    }
+    .what_do_i .right span{
+        font-size: 10px;
+        font-weight: 500;
+    }
+    /* *what_do_i ends */
+
+    /* *timeline starts */
+    .my_work_experience .hedding{
+        margin-bottom: 60px;
+    }
+    .hedding h2{
+        font-size: 24px;
+    }
+    .my_work_experience .progress_bar .left::before{
+        left: -45px;
+        top: -10px;
+    }
+    .my_work_experience .progress_bar .left::after{
+        left: -34px;
+        top: 0;
+    }
+    .my_work_experience .progress_bar .right{
+        padding: 20px 0 50px 25px;
+    }
+    .my_work_experience .progress_bar h4{
+        font-size: 15px;
+    }
+    .my_work_experience .progress_bar  p{
+        font-size: 12px;
+    }
+    .my_work_experience .bar3 .right{
+        padding-bottom: 0;
+    }
+    /* *timeline ends */
+    /* *skills starts */
+    .skills{
+        padding: 150px 0 50px 0;
+    }
+    .skills .left p{
+        font-size: 15px;
+        line-height: 38px;
+        margin: 50px 0px 50px 0;
+    }
+    .skills .right ul li button.active{
+        background-color: transparent;
+        color: var(--primary_color);
+        border: 1px solid var(--primary_color);
+        border-radius: 15px;
+    }
+    .skills .right ul li button{
+        padding: 12px 0;
+        font-size: 16px;
+        width: 140px;
+    }
+    .skills .right .skill_bar h4{
+        font-size: 14px;
+    }
+    .skills .right .skill_bar span{
+        font-size: 14px;
+    }
+    /* *skills ends */
+
+    /* *my service starts */
+    .services{
+        padding: 40px 0;
+        text-align: left;
+    }
+    .services .hedding h2{
+        text-align: left;
+    }
+    .services p{
+        font-size: 13px;
+        line-height: 23px;
+        margin: 13px 0 45px 0;
+    }
+    .services .service_cars .card_body{
+        padding: 24px 22px;
+        margin-bottom: 15px;
+    }
+    .services .service_cars .card_body:hover{
+        padding: 24px 22px;
+        margin: 0;
+        margin-bottom: 15px;
+    }
+    .services .service_cars .card_body .image img{
+        width: 100%;
+    }
+    .services .service_cars .card_body h4{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0;
+        margin-bottom: 9px;
+    }
+    .services .service_cars .card_body p{
+        font-size: 13px;
+        line-height: 23px;
+        margin: 0;
+    }
+    /* *my service ends */
+
+    /* *feedback starts */
+    .feedback{
+        padding: 50px 0 30px 0;
+    }
+    .feedback .hedding h2{
+        text-align: left;
+    }
+    .feedback p{
+        color: #7A7A7A;
+        font-size: 13px;
+        line-height: 23px;
+        margin: 15px 0 60px 0;
+    }
+    .feedback .img img{
+        margin: 0;
+        width: 100%;
+    }
+    .feedback .content p{
+        margin: 20px 0 15px 0;
+        font-size: 15px;
+        line-height: 27px;
+    }
+    .feedback .content h4{
+        font-size: 15px;
+        margin: 0 0 0 40px;
+        position: relative;
+    }
+    .feedback .content h4::before{
+        content: "";
+        width: 30px;
+        background-color: #353535;
+        height: 1px;
+        bottom: 0px;
+        left: -40px;
+        position: absolute;
+    }
+    .feedback .content span{
+        font-size: 12px;
+        margin-left: 40px;
+    }
+    /* *feedback ends */
+
+    /* *blog_post sarts */
+    .blogs{
+        padding: 50px 0;
+    }
+    .blogs .hedding{
+        margin-bottom: 40px;
+    }
+    .blogs .blog_coard{
+        margin-bottom: 30px;
+    }
+    .blogs .blog_coard .img img{
+        width: 80%;
+    }
+    .blogs .blog_coard .content p span{
+        font-size: 10px;
+        margin-right: 10px;
+    }
+    .blogs .blog_coard .content p{
+        font-size: 10px;
+    }
+    .blogs .blog_coard .content h4{
+        font-size: 13px;
+        line-height: 24px;
+    }
+    .blogs .blog_coard .content a{
+        font-size: 12px;
+        display: block;
+        bottom: 20px;
+    }
+    .blogs .blog_coard .content svg{
+        width: 14px;
+        height: 14px;
+    }
+    .blogs .subcrption{
+        border-radius: 19px;
+        padding: 30px;
+        margin-top: 90px;
+    } 
+    .blogs .subcrption .left span{
+        font-size: 12px;
+    }
+    .blogs .subcrption .left h4{
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .blogs .subcrption .left p{
+        font-size: 14px;
+        margin-bottom: 40px;
+    }
+    .blogs .subcrption .right form input[type=email]{
+        width: 69%;
+        padding:12px 0px;
+        border-radius: 10px 0 0 10px;
+    }
+    .blogs .subcrption .right form button[type=submit]{
+        padding: 0;
+        padding:15px 0;
+        border-radius: 0 10px 10px 0;
+        font-size: 12px;
+        width: 30%;
+    }
+    .blogs .subcrption .right form input::placeholder{
+        padding-left: 20px;
+        font-size: 12px;
+    }
+    /* *blog_post ends */
+
+    /* *footer starts */
+    .footer{
+        padding: 50px 0;
+    }
+    .footer .footer_ctn_1 img{
+        width: 114px;
+    }
+    .footer .footer_ctn_2 h4{
+        font-size: 18px;
+        margin-top: 30px;
+    }
+    .footer .footer_ctn_2 p{
+        font-size: 13px;
+        line-height: 23px;
+        margin-bottom: 30px;
+    }
+    .footer .footer_ctn_3{
+        text-align: left;
+        margin-bottom: 40px;
+    }
+    .footer .footer_ctn_3 a svg{
+        width: 12px;
+    }
+    .footer .footer_ctn_4 p,
+    .footer .footer_ctn_5 p{
+        font-size: 12px;
+    }
+    .footer .footer_ctn_4 a,
+    .footer .footer_ctn_5 a{
+        font-size: 13px;
+    }
+    .footer .footer_ctn_6{
+        text-align: left;
+        margin-top: 35px;
+    }
+    .footer .footer_ctn_6 span{
+        font-size: 14px;
+    }
+    .footer .footer_ctn_6 a{
+        padding: 0px;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        border-radius: 50%;
+    }
+    .footer .footer_ctn_6 a svg{
+        width: 12px;
+    }
+
+    /* *footer ends */
+
+    /* *about_info starts*/
+    .about_info .row{
+        margin-bottom: 0px;
+    }
+    .about_info .left img{
+        width: 80%;
+        display: block;
+        margin: auto;
+        margin-bottom: 30px;
+    }
+    .about_info p{
+        color: #7A7A7A;
+        text-align: justify;
+        font-size: 13px;
+        line-height: 23px;
+        margin: 20px 0;
+    }
+    .about_info .right p{
+        font-size: 12px;
+    }
+    .about_info .right .row{
+        margin: 0 10px;
+    }
+    .about_info .right .row p{
+        margin: 0px;
+        padding: 0;
+        padding-left: 0px;
+    }
+    .about_info .right p span{
+        font-size: 12px;
+        margin-left: 0px;
+    }
+    .about_info .right .m_btn a{
+        padding: 9px 15px;
+        margin: 30px 0 40px 0;
+        font-size: 13px;
+    }
+    /* *about_info ends*/
+
+    /* *about_timeline starts*/
+    .about_hedding{
+        font-size: 22px;
+        margin: 30px 0 30px 0;
+    }
+    .about_me_timeline  h4{
+        font-size: 15px;
+        font-weight: 600;
+        margin: 0px 0 16px 0;
+    }
+    .about_me_timeline  p{
+        font-size: 12px;
+        line-height: 24px;
+    }
+    .about_me_timeline .time_line{
+        padding: 0 18px 20px 0;
+        border-right: 2px dashed #7A7A7A;
+        border-left: none;
+        position: relative;
+    }
+    .about_me_timeline .time_line .row .right{
+        padding-left: 0;
+    }
+    .about_me_timeline .time_line.border_less{
+        border: none;
+    }
+    .about_me_timeline .time_line.border_less::after{
+        display: none;
+    }
+    .about_me_timeline .time_line.border_less::before{
+        display: none;
+    }
+    .about_me_timeline .time_line.border_less{
+        padding-left: 20px;
+        padding-right: 0;
+    }
+    .about_me_timeline .time_line::after{
+        left: unset;
+        right: -17px;
+        top: 0;
+    }
+    .about_me_timeline .time_line::before{
+        left: unset;
+        right: -8px;
+        top: 8px;
+    }
+    /* *about_timeline ends*/
+
+    /* *about_me_skills starts*/
+    .about_me_skills{
+        padding: 30px 0;
+    }
+    .about_me_skills p,
+    .about_me_skills span{
+        font-size: 14px;
+    }
+    .about_me_skills .left{
+        padding: 0;
+    }
+    .about_me_skills .right{
+        padding: 0;
+    }
+    /* *about_me_skills ends*/
+
+    /* *projetcs starts */
+    .project_cards{
+        padding-bottom: 40px;
+    }
+    .project_cards .projetct_cards_body{
+        margin: 40px 0;
+    }
+    .project_cards .projetct_cards_body li button{
+        font-size: 14px;
+        height: 50px;
+        width: 100%;
+        border-radius: 15px;
+    }
+    .project_cards .p_card{
+        margin-bottom: 40px;
+    }
+    .project_cards .p_card .card_body p{
+        font-size: 11px;
+        margin: 15px 0 5px 0;
+    }
+    .project_cards .p_card .card_body h4{
+        font-size: 15px;
+    }
+    /* *projetcs ends */
+
+    /* *blogs starts */
+    .card_show {
+        margin-bottom: 50px;
+        margin-top: 50px;
+    }
+    .card_show .row .img{
+        text-align: center;
+    }
+    .card_show .row .img img{
+        width: 90%;
+        border-radius: 12px;
+    }
+    .card_show .row .content h4{
+        font-size: 18px;
+        line-height: 30px; 
+        margin-top: 20px;
+    }
+    .card_show .row .content p{
+        font-size: 13px;
+        line-height: 24px; 
+        margin: 15px 0 20px 0;
+        text-align: justify;
+    }
+    .blogs_cards .card_body .image{
+        text-align: center;
+    }
+    .blogs_cards .card_body .image img{
+        width: 90%; 
+    }
+    .blogs_cards .card_body h4{
+        font-size: 13px;
+        line-height: 20px; /* 38px */
+        margin: 0;
+    }
+    .blogs_cards .card_body {
+        position: relative;
+    }
+    .blogs_cards .card_body a{
+        color: #353535;
+        font-size: 12px;
+        font-weight: 500;
+        position: absolute;
+        bottom: 10px;
+    }
+    /* *blogs ends */
+
+    /* *contect_form starts */
+    .contect_form{
+        padding: 50px 0;
+
+    }
+    .contect_form .left{
+        margin-bottom: 30px;
+    }
+    .contect_form .left .row{
+        margin-bottom: 25px;
+    }
+    .contect_form .left .icon span{
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .contect_form .left .icon span svg{
+        width: 14px;
+        height: 14px;
+    }
+    .contect_form .left .content p{
+        font-size: 15px;
+    } 
+    .contect_form .left .content address,
+    .contect_form .left .content a
+    {
+        font-size: 10px;
+    } 
+    .contect_form .right form input,
+    .contect_form .right form textarea{
+        padding: 8px 16px;
+        border-radius: 4px;
+        margin-bottom: 10px;
+    }
+    .contect_form .right form textarea{
+        height: 140px;
+    }
+    .contect_form .right form input::placeholder,
+    .contect_form .right form textarea::placeholder{
+        font-size: 11px;
+    }
+    /* *contect_form ends*/
+}
+/* *xs ends */
+
+
+@media (min-width: 320px) and (max-width: 375px) {
+    .blogs .blog_coard .content a{
+        font-size: 12px;
+        display: block;
+        bottom: 5px;
+    }
+    .blogs .blog_coard .img img{
+        width: 100%;
+    }
+    .blogs .blog_coard .content h4{
+        font-size: 12px;
+        line-height: 16px;
+    }
+}
